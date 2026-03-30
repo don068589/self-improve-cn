@@ -1,4 +1,4 @@
-# Self-Improve: Agent 自我进化系统
+﻿# Self-Improve: Agent 自我进化系统
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js >= 18](https://img.shields.io/badge/Node.js->=18-green.svg)](https://nodejs.org/)
@@ -19,6 +19,13 @@ AI Agent 会犯错。它们会重复犯错。它们会忘记学到的教训。Se
 - **记忆管理** - 三层记忆（HOT/WARM/COLD）实现高效检索
 - **安全进化** - 所有系统变更都需要明确审批
 
+### 为什么选这个系统？
+
+与需要复杂配置的记忆框架不同，这是**零依赖**的方法：
+- **无数据库** — 纯 Markdown + YAML 存储
+- **隐私优先** — 所有数据留在本地
+- **模块化** — 只用你需要的
+- **安全进化** — 系统改动需要明确批准
 ## 平台兼容性
 
 | 平台 | 支持 | 说明 |
